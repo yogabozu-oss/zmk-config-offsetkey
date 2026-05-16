@@ -28,7 +28,7 @@
 &kp LCTRL  &kp LGUI  &kp LALT  &mo 1               &mkp LCLK           &kp SPACE &kp RALT  &mo 2     &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT &kp SPACE
 &kp UP     &kp LEFT  &kp RIGHT &kp DOWN  &kp ENTER &kp SPACE           &mkp LCLK &mkp LCLK &mkp RCLK &none
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder 0 0>;
         };
 
         layer_1 {
@@ -40,7 +40,7 @@
 &trans     &trans    &trans    &trans              &trans              &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
 &trans     &mmv MOVE_UP &mmv MOVE_LEFT &mmv MOVE_RIGHT &mmv MOVE_DOWN &trans &trans &trans &trans &trans
             >;
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&scroll_encoder 0 0>;
         };
 
         layer_2 {
