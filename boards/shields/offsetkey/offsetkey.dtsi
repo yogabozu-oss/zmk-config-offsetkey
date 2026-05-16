@@ -40,7 +40,7 @@ backlight: pwmleds {
 
     sensors {
 		compatible = "zmk,keymap-sensors";
-        triggers-per-rotation = <20>;
+        triggers-per-rotation = <10>;
 		sensors = <&left_encoder>;
 	};
 
