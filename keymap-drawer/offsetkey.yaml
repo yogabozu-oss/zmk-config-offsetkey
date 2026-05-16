@@ -28,7 +28,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
   - RGB ON
@@ -43,7 +43,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RGB OFF
@@ -67,7 +67,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - layer1
-  - layer1
+  - $$mdi:mouse-left-click-outline$$
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - layer2
@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
